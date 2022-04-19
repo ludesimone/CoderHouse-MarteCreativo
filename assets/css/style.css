@@ -1,0 +1,253 @@
+*{
+    padding: 5;
+    margin: 5;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7AA43
+}
+html{
+    height:100%;
+  }
+body{
+    height:100%;
+    padding-bottom:60px; 
+  }
+section {
+    height: 100%;
+  }
+p {
+    margin-bottom: 20px;
+}
+h1 {
+    color: #B20820 ;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: "Roboto-Black",
+    sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+h2 {
+    color: gray;
+    font-style: italic;
+    font-size:x-large;
+    font-family: "Roboto",
+    sans-serif;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+h3 {
+    color: black;
+    font-size: small;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    float: none;
+}
+.menulist {
+    display: inline;
+    font-family: "Montserrat";
+    font-style:italic ;
+    font-size: larger;
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+    margin: 10px;
+}
+.list {
+    padding: 5px;
+    width: 80%;
+    margin-left: 20px;
+    float: none;
+    font-family: "Montserrat";
+}
+.form {
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    font-family: "Montserrat";
+    background-image: url(/assets/img/abstract-white-modern-background-with-gold-and-black-stars-illustration-free-vector.jpg);
+    width: 550px;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-style: groove;
+}
+    .form.formoption {
+        width: 20%;
+        height: 5%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    #terminos {
+        padding: 5px;
+        width: 80%;
+        margin-left: 10%;
+        float: left;
+        font-family: "Montserrat";
+    }
+    #enviar {
+        padding: 15px;
+        width: 80%;
+        margin-left: 10%;
+        float: left;
+}
+.clientes {
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    font-family: "Montserrat";  
+}
+
+.bloque {
+    width: 500px;
+    height: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-style: dotted;
+    font-family: "Montserrat";
+}
+.bloqueservicios {
+    width: 600px;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-style: dotted;
+    font-family: "Montserrat";
+    font-size: x-small;
+    text-align: right
+}
+#main1
+{
+    width: 800px;
+    height: 200px;
+}   
+#main
+{
+    width: 800px;
+    height: 600px;
+}
+.bloqueindex {
+    width: 600px;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-style: dotted;
+    font-family: "Montserrat";
+    font-size: x-small;
+    text-align: right
+}
+.indeximages
+{
+    width: 600px;
+    height: 600px;
+    list-style: none;
+    margin: 0 auto; padding: 0;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+    .indeximages li
+    {    
+        float: left;
+        margin: 10px; padding: 0;
+        display: inline;
+
+    }
+        .imgindex1 {
+            width: 250px;
+            height: 250px;
+            left: 0%; position: relative
+            
+        }    
+        .imgindex2 {
+            width: 250px;
+            height: 250px;
+            left: 25%; position: relative
+        }  
+        .imgindex3 {
+            width: 250px;
+            height: 250px;
+            left: 0%; position: relative
+        }  
+        .imgindex4 {
+            width: 250px;
+            height: 250px;
+            left: 25%; position: relative
+        } 
+.imagenesserv {
+    width: 250px;
+    height: 250px;
+}
+ul {
+    list-style-type: none;
+}
+.footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    float: none;
+    text-align: center;
+    font-family: "Montserrat";
+}
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(/assets/fonts/Roboto/Roboto-Black.ttf);
+}
+p {
+    font-family: "Roboto";
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+.pharagraph {
+    font-family: "Montserrat";
+    src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
