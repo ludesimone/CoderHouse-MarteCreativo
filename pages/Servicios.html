@@ -1,96 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Marte Creativo</title>
 </head>
+
 <body>
-    <h1>MARTE CREATIVO</h1>
     <header>
-        <nav>
-            <a href="../Index.html">LOGO</a>
-            <div id="list">
-                <ul>
-                    <li class="menulist"><a href="./Contacto.html">Contacto</a></li>
-                    <li class="menulist"><a href="./Nosotros.html">Nosotros</a></li>
-                    <li class="menulist"><a href="./Servicios.html">Servicios</a></li>
-                    <li class="menulist"><a href="./Soluciones.html">Soluciones</a></li>
-                    <li class="menulist"><a href="./Portfolio.html">Portfolio</a></li>
-                    <li class="menulist"><a href="./../Index.html">Volver al Inicio</a></li>
-                </ul> 
-            </div>
-        </nav>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../Index.html">Marte Creativo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./pages/Contacto.html">Contacto</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Nosotros.html">Nosotros</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Servicios.html">Servicios</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Soluciones.html">Soluciones</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Portfolio.html">Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="./Index.html">Volver al Inicio</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
     </header>
     <main>
-    <h2>Nuestros Servicios</h2>
-    <div class="list">
-    <ol>
-        <li>Gestion de <strong>Redes Sociales</strong></li>
-        <li>Branding</li>
-        <li>Estrategia de comunicación/li>
-        <li>Creacion de Contenido</li>
-        <li>Asesorias</li>
-        <li>Produccion Audiovisual</li>
-    </ol>
-    </div>
-    <div class="bloqueservicios">
-    <h3>Gestion de Redes Sociales</h3>
-        <img src="../assets/img/rrss.PNG" alt="imagen descriptiva del servicio" align="left" class="imagenesserv">
-    <div id="list">
-            <ul>
-                <li>Administración de Facebook e Instagram</li>
-                <li>Redacción y diseño de posteos mensuales e historias.</li>
-                <li>Calendario y estrategia mensual</li>
-                <li>Gestión de publicidades pagas</li>
-            </ul>
+        <h2>Nuestros Servicios</h2>
+        <div class="list">
+            <ol>
+                <li>Gestion de <strong>Redes Sociales</strong></li>
+                <li>Branding</li>
+                <li>Estrategia de comunicación/li>
+                <li>Creacion de Contenido</li>
+                <li>Asesorias</li>
+                <li>Produccion Audiovisual</li>
+            </ol>
+        </div>
+        <div class="bloqueservicios">
+            <h3>Gestion de Redes Sociales</h3>
+            <img src="../assets/img/rrss.PNG" alt="imagen descriptiva del servicio" align="left" class="imagenesserv">
+            <div id="list">
+                <ul>
+                    <li>Administración de Facebook e Instagram</li>
+                    <li>Redacción y diseño de posteos mensuales e historias.</li>
+                    <li>Calendario y estrategia mensual</li>
+                    <li>Gestión de publicidades pagas</li>
+                </ul>
             </div>
-    </div>
-    <div class="bloqueservicios">
-    <h3>Branding</h3>
-        <img src="../assets/img/branding.PNG" alt="imagen descriptiva del servicio" align="left" class="imagenesserv">
-    <div id="list">
-            <ul>
-                <li>Diseño de logotipo</li>
-                <li>Manual normativo y hasta 5 aplicaciones básicas</li>
-                <li>Diseño de Merchandising</li>
-            </ul>
+        </div>
+        <div class="bloqueservicios">
+            <h3>Branding</h3>
+            <img src="../assets/img/branding.PNG" alt="imagen descriptiva del servicio" align="left"
+                class="imagenesserv">
+            <div id="list">
+                <ul>
+                    <li>Diseño de logotipo</li>
+                    <li>Manual normativo y hasta 5 aplicaciones básicas</li>
+                    <li>Diseño de Merchandising</li>
+                </ul>
             </div>
-    </div>
-    <div class="bloqueservicios">
-    <h3>Estrategia de comunicacion</h3>
-        <img src="../assets/img/estrategiascom.PNG" alt="imagen descriptiva del servicio" align="left" class="imagenesserv">
-    <div id="list">
-            <ul>
-                <li>Revisamos la comunicacion integral de tu marca/negocio</li>
-            </ul>
+        </div>
+        <div class="bloqueservicios">
+            <h3>Estrategia de comunicacion</h3>
+            <img src="../assets/img/estrategiascom.PNG" alt="imagen descriptiva del servicio" align="left"
+                class="imagenesserv">
+            <div id="list">
+                <ul>
+                    <li>Revisamos la comunicacion integral de tu marca/negocio</li>
+                </ul>
             </div>
-    </div>
-    <div class="bloqueservicios">
-    <h3>Asesorias</h3>
-        <img src="../assets/img/asesorias.PNG" alt="imagen descriptiva del servicio" align="left" class="imagenesserv">
-        <div id="list">
+        </div>
+        <div class="bloqueservicios">
+            <h3>Asesorias</h3>
+            <img src="../assets/img/asesorias.PNG" alt="imagen descriptiva del servicio" align="left"
+                class="imagenesserv">
+            <div id="list">
                 <ul>
                     <li>Analisis y acompañamiento.</li>
                     <li>Potenciales soluciones.</li>
                 </ul>
-                </div>
-        </div>
-            <div class="bloqueservicios">
-    <h3>Produccion Audiovisual</h3>
-        <img src="../assets/img/produav.PNG" alt="imagen descriptiva del servicio" align="left" class="imagenesserv">
-    <div id="list">
-            <ul>
-                <li>Sesiones de fotos.</li>
-                <li>Videos.</li>
-            </ul>
             </div>
-    </div>
+        </div>
+        <div class="bloqueservicios">
+            <h3>Produccion Audiovisual</h3>
+            <img src="../assets/img/produav.PNG" alt="imagen descriptiva del servicio" align="left"
+                class="imagenesserv">
+            <div id="list">
+                <ul>
+                    <li>Sesiones de fotos.</li>
+                    <li>Videos.</li>
+                </ul>
+            </div>
+        </div>
     </main>
     <div class="footer">
-        <footer id="pie">Copyright © 2022 Marte Creativo / Todos los Derechos Reservados - Calle Falsa 123, Güemes. Córdoba, Argentina. +54 351 123456</footer>
+        <footer id="pie">Copyright © 2022 Marte Creativo / Todos los Derechos Reservados - Calle Falsa 123, Güemes.
+            Córdoba, Argentina. +54 351 123456</footer>
     </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

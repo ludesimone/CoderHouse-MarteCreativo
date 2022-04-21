@@ -1,58 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title> Marte Creativo</title>
 </head>
+
 <body>
-    <h1>MARTE CREATIVO</h1>
     <header>
-        <nav>
-            <a href="../Index.html">LOGO</a>
-            <div id="list">
-                <ul>
-                    <li class="menulist"><a href="./pages/Contacto.html">Contacto</a></li>
-                    <li class="menulist"><a href="./pages/Nosotros.html">Nosotros</a></li>
-                    <li class="menulist"><a href="./pages/Servicios.html">Servicios</a></li>
-                    <li class="menulist"><a href="./pages/Soluciones.html">Soluciones</a></li>
-                    <li class="menulist"><a href="./pages/Portfolio.html">Portfolio</a></li>
-                    <li class="menulist"><a href="./Index.html">Volver al Inicio</a></li>
-                </ul> 
-            </div>
-        </nav>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../Index.html">Marte Creativo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./pages/Contacto.html">Contacto</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Nosotros.html">Nosotros</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Servicios.html">Servicios</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Soluciones.html">Soluciones</a></li>
+                                    <li><a class="dropdown-item" href="./pages/Portfolio.html">Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="./Index.html">Volver al Inicio</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
     </header>
     <main>
-        <section id="main1">
-            <div>
-                <h2>Bienvenidxs!</h2>
-                <p class="pharagraph">Estamos felices de contarles que somos MARTE - Comunicación Creativa. Un equipo con muchas ganas de romperla toda, haciendo comunicación de una forma distinta, original y única. Traída de otro planeta y desde Córdoba hasta el mundo entero (bueno, mejor el universo). Sigannos los buenos para saber todas nuestras novedades, nuestro trabajo y nuestra visión un poco alocada pero muy única de hacer lo que amamos.</p>
-                <button>Escribinos!</button>
+        <div class="container-fluid">
+            <h2>Bienvenidxs!</h2>
+            <p class="pharagraph">Estamos felices de contarles que somos MARTE - Comunicación Creativa. Un equipo
+                con muchas ganas de romperla toda, haciendo comunicación de una forma distinta, original y única.
+                Traída de otro planeta y desde Córdoba hasta el mundo entero (bueno, mejor el universo). Sigannos
+                los buenos para saber todas nuestras novedades, nuestro trabajo y nuestra visión un poco alocada
+                pero muy única de hacer lo que amamos.</p>
+            <button type="button" class="btn btn-dark">Escribinos!</button>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xz-6">
+                    <img src="./assets/img/index 1.png" class="rounded float-start"
+                        alt="imagen ilustrativa de la agencia">
+                </div>
+                <div class="col-md-4 col-xz-6">
+                    <img src="./assets/img/index 2.png" class="rounded float-start"
+                        alt="imagen ilustrativa de la agencia">
+                </div>
             </div>
-        </section>
-        <section id="main">
-            <div>
-                <ul class="indeximages">
-                    <li>
-                        <img src="./assets/img/index 1.png" alt="imagen ilustrativa de la agencia" class="imgindex1"/></a>
+            <div class="row">
+                <div class="col-md-4 col-xz-6">
+                    <img src="./assets/img/index 3.png" class="rounded float-start"
+                        alt="imagen ilustrativa de la agencia">
+                </div>
+                <div class="col-md-4 col-xz-6">
+                    <img src="./assets/img/index 4.png" class="rounded float-start"
+                        alt="imagen ilustrativa de la agencia">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-muted">&copy; Copyright © 2022 Marte Creativo</p>
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="./Contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                    <li class="nav-item"><a href="./Nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+                    <li class="nav-item"><a href="./Servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
+                    <li class="nav-item"><a href="./Soluciones.html" class="nav-link px-2 text-muted">Soluciones</a>
                     </li>
-                    <li>
-                        <img src="./assets/img/index 2.png" alt="imagen ilustrativa de la agencia"class="imgindex2"/></a>
-                    </li>
-                    <li>
-                        <img src="./assets/img/index 3.png" alt="imagen ilustrativa de la agencia"class="imgindex3"/></a>
-                    </li>
-                    <li>
-                        <img src="./assets/img/index 4.png" alt="imagen ilustrativa de la agencia"class="imgindex4"/></a>
-                    </li>
-                </ul>  
-            </div>   
-        </section>   
+                    <li class="nav-item"><a href="./Portfolio.html" class="nav-link px-2 text-muted">Portfolio</a></li>
+                </ul>
+            </footer>
+            <script src="./assets/js/bootstrap.bundle.min.js"></script>
     </main>
-    <div class="footer">
-            <footer id="pie">Copyright © 2022 Marte Creativo / Todos los Derechos Reservados - Calle Falsa 123, Güemes. Córdoba, Argentina. +54 351 123456</footer>
-    </div>
 </body>
+
 </html>
